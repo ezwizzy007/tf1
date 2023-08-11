@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main
+<<<<<<< HEAD
+=======
+
+>>>>>>> e7a42161807652ae5ffd8ab508b960d14ea6a1c5
   pull_request:
     branches:
 on:
