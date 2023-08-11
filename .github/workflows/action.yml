@@ -5,6 +5,10 @@ on:
     branches:
     - main
   pull_request:
+   branches:
+    - main
+  workflow_dispatch: #this attribute will enable the manual run to the pipeline
+  
  
 jobs:
   terraform:
