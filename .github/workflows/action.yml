@@ -6,7 +6,7 @@ on:
  
 jobs:
   terraform:
-    name: 'Manual Workflow'
+    name: 'Manual Workflo'
     env:
       ARM_CLIENT_ID: ${{ secrets.AZURE_AD_CLIENT_ID }}
       ARM_CLIENT_SECRET: ${{ secrets.AZURE_AD_CLIENT_SECRET }}
