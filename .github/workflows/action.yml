@@ -1,18 +1,7 @@
-name: 'Terraform'
- 
-on:
-  push:
-    branches:
-      - main
-<<<<<<< HEAD
-=======
+name: Manual Workflow
 
->>>>>>> e7a42161807652ae5ffd8ab508b960d14ea6a1c5
-  pull_request:
-    branches:
 on:
   workflow_dispatch:  # This event triggers the workflow manually
-  
   
  
 jobs:
