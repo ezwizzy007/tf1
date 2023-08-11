@@ -12,7 +12,7 @@ resource "azurerm_resource_group" "default" {
 }
 
 resource "azurerm_container_registry" "acr" {
-  name                = "kspcontainerregistry"
+  name                = "kspcontainerregistry007"
   resource_group_name = azurerm_resource_group.default.name
   location            = "East US 2"
   sku                 = "Standard"
