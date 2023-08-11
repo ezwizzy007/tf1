@@ -10,7 +10,7 @@ resource "azurerm_resource_group" "default" {
     environment = "Productions"
   }
 }
-/*
+
 resource "azurerm_container_registry" "acr" {
   name                = "kspcontainerregistry007"
   resource_group_name = azurerm_resource_group.default.name
@@ -32,4 +32,3 @@ output "acr_admin_password" {
   value     = azurerm_container_registry.acr.admin_password
   sensitive = false
 }
-*/
