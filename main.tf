@@ -7,7 +7,7 @@ resource "azurerm_resource_group" "default" {
   location = "East US 2"
 
   tags = {
-    environment = "Production"
+    environment = "Productions"
   }
 }
 /*
